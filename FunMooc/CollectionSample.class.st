@@ -13,6 +13,18 @@ CollectionSample >> createArray [
 ]
 
 { #category : #'as yet unclassified' }
+CollectionSample >> createDictionnary [
+	| dict |
+	dict := Dictionary new.
+	dict
+	at: #january put: 31;
+	at: #fenruary put: 28;
+	at: #march put: 30.
+
+	^dict
+]
+
+{ #category : #'as yet unclassified' }
 CollectionSample >> createDictionnaty [
 	| dict |
 	dict := Dictionary new.
